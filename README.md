@@ -68,7 +68,35 @@ No frameworks were used — the project is built from scratch to strengthen core
 
 ---
 
+
+## 📁 Project Structure
+
+The repository is intentionally kept simple and modular for easy understanding and extensibility:
+
+```text
+GraphNav-Pathfinding-Visualizer/
+│
+├── index.html          # Main HTML entry point (UI structure)
+├── app.js              # Core application logic (grid, algorithms, animations)
+│
+├── CSS/
+│   ├── main.css        # Core styles, layout, animations
+│   └── utility.css     # Reusable utility classes & visual helpers
+│
+├── assets/
+│   ├── icon/           # UI icons (source, target, controls)
+│   ├── screenshots/    # README and documentation visuals
+│   └── tutorial/       # Tutorial images and GIFs
+│
+├── robots.txt          # Search engine crawling rules
+├── sitemap.xml         # Sitemap for SEO indexing
+│
+└── README.md           # Project documentation
+
 ## 🚀 Getting Started
+
+
+---
 
 ### Option 1: Run Online
 Open the live demo and start exploring immediately:  
