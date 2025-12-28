@@ -66,9 +66,6 @@ Each algorithm is animated step-by-step to clearly show:
 
 No frameworks were used — the project is built from scratch to strengthen core fundamentals.
 
----
-
-
 ## 📁 Project Structure
 
 The repository is intentionally kept simple and modular for easy understanding and extensibility:
@@ -93,17 +90,17 @@ GraphNav-Pathfinding-Visualizer/
 │
 └── README.md           # Project documentation
 
+
+```
+
 ## 🚀 Getting Started
-
-
 ---
-
-### Option 1: Run Online
-Open the live demo and start exploring immediately:  
-🔗 https://path-explorer.netlify.app/
+### Option 1: Live Demo
+Visit [path-explorer.netlify.app](https://path-explorer.netlify.app) and **start visualizing** immediately!
 
 ### Option 2: Run Locally
 ```bash
 git clone https://github.com/deepakvishwakarma24/GraphNav-Pathfinding-Visualizer.git
 cd GraphNav-Pathfinding-Visualizer
 # Open index.html in your browser
+
