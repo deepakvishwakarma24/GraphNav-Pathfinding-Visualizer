@@ -308,6 +308,12 @@ function isValid(x, y) {
 }
 
 function set(className, x = -1, y = -1) {
+  // Remove existing source/target classes from all cells first
+  const allCells = document.querySelectorAll('.col');
+  allCells.forEach((cell) => {
+    cell.classList.remove(className);
+  });
+  
   if (isValid(x, y)) {
     matrix[x][y].classList.add(className);
   } else {
@@ -1110,8 +1116,6 @@ function debounce(func, wait) {
 
 const repaint = debounce(() => {
   renderBoard(width);
-  source_Cordinate = set("source");
-  target_Cordinate = set("target");
 }, 250);
 
 window.addEventListener("resize", repaint);
