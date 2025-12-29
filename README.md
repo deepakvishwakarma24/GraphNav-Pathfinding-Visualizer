@@ -5,7 +5,8 @@
 This project focuses on **algorithmic behavior**, **visual clarity**, and **hands-on interaction**, making it useful for both learning and technical demonstration.
 
 👉 **Live Demo:**  
-🔗 https://path-explorer.netlify.app/
+🔗 https://graphnav-pathfinder-visualizer.vercel.app
+
 
 ![Pathfinding Visualization](./assets/screenshots/Bi-directional-bfs.webp)  
 *Visualizing how algorithms navigate through obstacles to find optimal paths.*
@@ -96,7 +97,8 @@ GraphNav-Pathfinding-Visualizer/
 ## 🚀 Getting Started
 ---
 ### Option 1: Live Demo
-Visit [path-explorer.netlify.app](https://path-explorer.netlify.app) and **start visualizing** immediately!
+Visit 👉 **https://graphnav-pathfinder-visualizer.vercel.app/**  
+and **start visualizing** immediately!
 
 ### Option 2: Run Locally
 ```bash
