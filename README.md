@@ -67,6 +67,23 @@ Each algorithm is animated step-by-step to clearly show:
 
 No frameworks were used — the project is built from scratch to strengthen core fundamentals.
 
+---
+
+## 🏗 Architecture Overview
+
+The diagram below illustrates how **GraphNav** handles user interactions, executes pathfinding algorithms, and renders real-time visual feedback — all entirely within the browser.
+
+![GraphNav Architecture Overview](./assets/screenshots/architecture-overview.png)
+
+### Architecture Highlights
+- Clear separation between **UI controls**, **state management**, **algorithm engine**, and **visual rendering**
+- Pathfinding algorithms are implemented as **independent computation modules**
+- Grid state and animation queues are centrally managed for smooth, step-by-step visualization
+- Fully **client-side architecture** built using Vanilla JavaScript (no backend dependency)
+
+This design keeps the system easy to understand, extend, and debug — while maintaining high visual performance.
+
+---
 ## 📁 Project Structure
 
 The repository is intentionally kept simple and modular for easy understanding and extensibility:
